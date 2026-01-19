@@ -1,12 +1,11 @@
 name = "cloudflare_temp_email"
-# PERHATIKAN: Saya sudah mengarahkan ini ke dalam folder worker
 main = "worker/src/worker.ts"
-compatibility_date = "2024-04-01"
+# PERBAIKAN UTAMA ADA DI BARIS DI BAWAH INI:
+compatibility_date = "2024-11-01"
 compatibility_flags = [ "nodejs_compat" ]
 keep_vars = true
 
 [vars]
-# Ganti dengan domain Anda
 TITLE = "AghaBiz Temp Mail"
 PREFIX = "tmp"
 DEFAULT_DOMAINS = ["aghabiz.web.id"]
