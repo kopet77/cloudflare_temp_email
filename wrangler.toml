@@ -1,0 +1,34 @@
+name = "cloudflare_temp_email"
+# PERHATIKAN: Saya sudah mengarahkan ini ke dalam folder worker
+main = "worker/src/worker.ts"
+compatibility_date = "2024-04-01"
+compatibility_flags = [ "nodejs_compat" ]
+keep_vars = true
+
+[vars]
+# Ganti dengan domain Anda
+TITLE = "AghaBiz Temp Mail"
+PREFIX = "tmp"
+DEFAULT_DOMAINS = ["aghabiz.web.id"]
+DOMAINS = ["aghabiz.web.id"]
+
+# Keamanan
+ADMIN_PASSWORDS = ["admin123"]
+JWT_SECRET = "R4nd0m_K3y_AghaBiz_2025_xYz"
+
+# Fitur
+ENABLE_USER_CREATE_EMAIL = true
+ENABLE_USER_DELETE_EMAIL = true
+DISABLE_ANONYMOUS_USER_CREATE_EMAIL = false
+COPYRIGHT = "Powered by AghaBiz"
+
+# Bot Telegram
+TG_BOT_TOKEN = "8521864995:AAHKQXQWFB86B_cXsm7U_1IdF9O0RmmU5Y4"
+TG_MAX_ADDRESS = 5
+TG_ALLOW_USER_LANG = true
+
+# Database
+[[d1_databases]]
+binding = "DB"
+database_name = "temp-mail-db"
+database_id = "7d5d363b-1b12-4b5c-a775-27ef7db7d4f8"
