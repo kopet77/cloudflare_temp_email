@@ -1,4 +1,4 @@
-name = "cloudflare_temp_email"
+name = "cloudmail"
 main = "worker/src/worker.ts"
 # PERBAIKAN UTAMA ADA DI BARIS DI BAWAH INI:
 compatibility_date = "2024-11-01"
