@@ -8,8 +8,8 @@ keep_vars = true
 [vars]
 TITLE = "AghaBiz Temp Mail"
 PREFIX = "tmp"
-DEFAULT_DOMAINS = ["aghabiz.web.id"]
-DOMAINS = ["aghabiz.web.id"]
+DEFAULT_DOMAINS = ["kalacakra.eu.cc"]
+DOMAINS = ["kalacakra.eu.cc"]
 
 # Keamanan
 ADMIN_PASSWORDS = ["admin123"]
@@ -22,12 +22,12 @@ DISABLE_ANONYMOUS_USER_CREATE_EMAIL = false
 COPYRIGHT = "Powered by AghaBiz"
 
 # Bot Telegram
-TG_BOT_TOKEN = "8521864995:AAHKQXQWFB86B_cXsm7U_1IdF9O0RmmU5Y4"
+TG_BOT_TOKEN = "8790764105:AAFaD-k9dnBzbmHHKncJjqzXWxn4YeYDwlk"
 TG_MAX_ADDRESS = 5
 TG_ALLOW_USER_LANG = true
 
 # Database
 [[d1_databases]]
 binding = "DB"
-database_name = "temp-mail-db"
-database_id = "7d5d363b-1b12-4b5c-a775-27ef7db7d4f8"
+database_name = "mail-db"
+database_id = "84c5816b-fc66-4a47-b8c3-ebdf8b077748"
